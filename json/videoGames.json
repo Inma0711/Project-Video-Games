@@ -2,59 +2,59 @@
     "videoGames": [
         {
             "id": 1,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/eldenRing.jpg",
+            "alt": "Elden Ring",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "40€"
         },
         {
             "id": 2,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/ark.jpg",
+            "alt": "Ark",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "45€"
         },
         {
             "id": 3,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/farCry.jpeg",
+            "alt": "Far Cry 6",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "60€"
         },
         {
             "id": 4,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/stardewValley.jpg",
+            "alt": "Stardew Valley",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "14€"
         },
         {
             "id": 5,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/fc24.jpg",
+            "alt": "EA Sports FC24",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "70€"
         },
         {
             "id": 6,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/metro.jpg",
+            "alt": "Metro Exodus",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "30€"
         },
         {
             "id": 7,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/hollowKnight.jpg",
+            "alt": "Hollow Knight",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "8€"
         },
         {
             "id": 8,
-            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "image": "img/tombRider.jpg",
+            "alt": "Tomb Rider",
             "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
-            "price": "1",
-            "ageClassification": "1"
+            "price": "30€"
         }
     ]
 }
