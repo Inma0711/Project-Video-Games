@@ -1,0 +1,60 @@
+{
+    "videoGames": [
+        {
+            "id": 1,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        },
+        {
+            "id": 2,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        },
+        {
+            "id": 3,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        },
+        {
+            "id": 4,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        },
+        {
+            "id": 5,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        },
+        {
+            "id": 6,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        },
+        {
+            "id": 7,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        },
+        {
+            "id": 8,
+            "image": "https://noticias.imer.mx/wp-content/uploads/2022/08/GAMES.png",
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "price": "1",
+            "ageClassification": "1"
+        }
+    ]
+}
