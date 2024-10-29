@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: rgb(204, 204, 204);
+    background-color: #cccccc;
   }
   
   header {
@@ -14,8 +14,7 @@
     height: 20px;
     padding: 2rem;
     text-align: center;
-    background-color: rgb(49, 49, 49);
-    background: rgba(0,0,0,0.9);
+    background-color: #121111;
     position: fixed;
     z-index: 100;
   }
