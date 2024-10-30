@@ -38,13 +38,12 @@ async function	displayVideoGames()
 	const	videoGamesData = await fetchVideoGamesJson();
 	let		videoGameCards;
 
-
 	if (!games)
 	{
-		console.log("Error: could not get element by id: games");
+		console.log("Error: could not get element by class");
 		return ;
 	}
-	if (!videoGamesData || !videoGamesData.videoGames)
+	if (!videoGamesData)
 	{
 		games.innerHTML = "<p>Error: couldn't load image correctly</p>";
 		return ;
