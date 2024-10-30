@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #cccccc;
+  background-color: #282828;
 }
 
 main {
@@ -20,15 +20,44 @@ header {
   padding: 2rem;
   align-items: center;
   background-color: #121111;
+  background-color: rgba(18, 17, 17, 0.9); /* Color negro con 80% de opacidad */
   position: fixed;
   z-index: 100;
   top: 0;
 }
 
+nav {
+  display: flex;
+  font-family: sans-serif;
+  gap: 15%;
+  margin-right: 200px;
+}
+
+nav a {
+  text-decoration: none;
+  list-style: none;
+  transition: color 0.4s ease;
+  color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+  color: rgb(154, 255, 248);
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
 h1 {
+  display: flex;
+  justify-content: start;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   color: aliceblue;
+
 }
 
 footer {
@@ -63,4 +92,22 @@ gap: 25px;
 height: 225px;
 }
 
+.card {
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#logoWeb {
+  width: 30px;
+  height: 30px;
+}
+
+.logoTitle {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
 
