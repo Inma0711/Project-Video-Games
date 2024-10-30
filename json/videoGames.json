@@ -2,58 +2,66 @@
     "videoGames": [
         {
             "id": 1,
+            "title": "ELDEN RING",
             "image": "img/eldenRing.jpg",
             "alt": "Elden Ring",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "Elden Ring is an action role-playing game set in third-person perspective. It includes elements that are similar to those in other FromSoftware-developed games, such as the Dark Souls series, Bloodborne, and Sekiro: Shadows Die Twice.",
             "price": "40€"
         },
         {
             "id": 2,
+            "title": "ARK",
             "image": "img/ark.jpg",
             "alt": "Ark",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "Players can use firearms and improvised weapons to defend against hostile humans and creatures, with the ability to build bases as a defense on the ground and on some creatures.",
             "price": "45€"
         },
         {
             "id": 3,
+            "title": "FAR CRY 6",
             "image": "img/farCry.jpeg",
             "alt": "Far Cry 6",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "Similar to the previous entries in the series, Far Cry 6 is a first-person shooter game, set in an open world environment navigable on foot or via various land, water, and air vehicles.",
             "price": "60€"
         },
         {
             "id": 4,
+            "title": "Stardew Valley",
             "image": "img/stardewValley.jpg",
             "alt": "Stardew Valley",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "Stardew Valley is a 2016 farm life simulation role-playing video game developed by Eric Barone. Players take the role of a character who inherits their deceased grandfather's dilapidated farm in a place known as Stardew Valley.",
             "price": "14€"
         },
         {
             "id": 5,
+            "title": "EA Sports FC24",
             "image": "img/fc24.jpg",
             "alt": "EA Sports FC24",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "EA SPORTS FC™ 24 welcomes you to The World’s Game: the most true-to-football experience ever with HyperMotionV, PlayStyles optimised by Opta, and an enhanced Frostbite™ Engine.",
             "price": "70€"
         },
         {
             "id": 6,
+            "title": "Metro Exodus",
             "image": "img/metro.jpg",
             "alt": "Metro Exodus",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "Like earlier games in the series, Metro Exodus is a first-person shooter. The player controls player-character Artyom, who must leave the tunnels of Moscow and travel across the post-apocalyptic wasteland of the former Russian Federation and Republic of Kazakhstan while fighting against mutated creatures and hostile humans.",
             "price": "30€"
         },
         {
             "id": 7,
+            "title": "Hollow Knight",
             "image": "img/hollowKnight.jpg",
             "alt": "Hollow Knight",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "Hollow Knight is a 2D side-scrolling Metroidvania. The player controls a silent insectoid protagonist called the Knight who explores an underground fallen kingdom called Hallownest. ",
             "price": "8€"
         },
         {
             "id": 8,
-            "image": "img/tombRider.jpg",
+            "title": "Tomb Rider",
+            "image": "img/tombRaider.jpg",
             "alt": "Tomb Rider",
-            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nam, quis provident nostrum enim eos iure aliquam molestias recusandae ducimus consectetur nesciunt! Consequatur eos illum atque aperiam, eveniet beatae quia?",
+            "description": "Players take control of the series lead character Lara Croft. The game uses an interconnected hub-and-spoke model that combines action-adventure, exploration, and survival elements.",
             "price": "30€"
         }
     ]

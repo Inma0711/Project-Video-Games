@@ -18,13 +18,13 @@ async function	fetchVideoGamesJson()
 	}
 }
 
-function	createVideoGameCards({image, description, price})
+function	createVideoGameCards({title, image, description, price, alt})
 {
 	return `
 		<div class="card" style="width: 18rem;">
-			<img src="${image}" class="card-img-top" alt="A videogame image">
+			<img src="${image}" class="card-img-top" alt="${alt}">
 			<div class="card-body">
-				<h5 class="card-title">Card title</h5>
+				<h5 class="card-title">${title}</h5>
 				<p class="card-text">${description}</p>
 				<a href="#" class="btn btn-primary">${price}</a>
 			</div>
