@@ -24,12 +24,11 @@ function	createReviewsCards({name, reviewImg, userImg, stars})
 			<div class="image-box">
 				<img src="${reviewImg}" alt="Review image">
 			</div>
-				<div class="profile-details">
-					<img src="${userImg}" alt="User image">
-					<div class="name-job">
-						<h3 class="name">${name}</h3>
-						<h4 class="job">${stars}</h4>
-					</div>
+			<div class="profile-details">
+				<img src="${userImg}" alt="User image">
+				<div class="name-user">
+					<h3 class="name">${name}</h3>
+					<h4 class="stars">${stars}</h4>
 				</div>
 			</div>
 		</div>

@@ -1,25 +1,25 @@
 {
-	"reviews" : [
-		{
-			"id": 1,
-			"name": "Ines Molero",
-			"reviewImg": "img/review1.jpg",
-			"userImg": "img/user1.jpg",
-			"stars": "⭐⭐⭐⭐"
-		},
-		{
-			"id": 2,
-			"name": "Adrian Velazquez",
-			"reviewImg": "img/review2.jpg",
-			"userImg": "img/user2.jpg",
-			"stars": "⭐⭐⭐"
-		},
-		{
-			"id": 3,
-			"name": "Leticia Pascual",
-			"reviewImg": "img/review3.jpg",
-			"userImg": "img/user3.jpg",
-			"stars": "⭐⭐⭐⭐⭐"
-		}
-	]
+    "reviews" : [
+        {
+            "id": 1,
+            "name": "Ines Molero",
+            "reviewImg": "img/review1.jpg",
+            "userImg": "img/user1.jpg",
+            "stars": "⭐⭐⭐⭐"
+        },
+        {
+            "id": 2,
+            "name": "Adrian Velazquez",
+            "reviewImg": "img/review2.jpg",
+            "userImg": "img/user2.jpg",
+            "stars": "⭐⭐⭐"
+        },
+        {
+            "id": 3,
+            "name": "Leticia Pascual",
+            "reviewImg": "img/review3.jpg",
+            "userImg": "img/user3.jpg",
+            "stars": "⭐⭐⭐⭐⭐"
+        }
+    ]
 }
