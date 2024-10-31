@@ -161,3 +161,50 @@ gap: 25px;
 #iconSection {
   margin-top: 20px;
 }
+
+.review {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.card {
+  width: 312px;
+  background: #fff;
+  border-radius: 8px;
+  height: 280px;
+}
+
+.card .image-box {
+  height: 200px;
+}
+
+.card .image-box img {
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile-details .job {
+  font-size: 15px;
+  font-weight: 400;
+  color: #4d4d4d;
+}
