@@ -63,6 +63,14 @@
             "alt": "Tomb Raider",
             "description": "Third-person survival game",
             "price": "30€"
+        },
+        {
+            "id": 9,
+            "title": "Minecraft",
+            "image": "img/minecraft.jpg",
+            "alt": "Minecraft",
+            "description": "Is an open world construction video game",
+            "price": "20€"
         }
     ]
 }
