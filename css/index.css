@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(154, 255, 248);
+  color: #ed3030;
 }
 
 #nav {
@@ -58,6 +58,16 @@ h1 {
   font-size: 20px;
   color: aliceblue;
 
+}
+
+.banner {
+  margin-top: 60px;
+  background: fixed;
+}
+
+.banner img {
+  width: 100%;
+  height: 400px;
 }
 
 footer {
@@ -88,20 +98,35 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-around;
-margin-top: 100px;
+margin-top: 50px;
 gap: 25px;
 }
 
 .card img{
-height: 225px;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
 }
 
 .card {
   transition: transform 0.5s ease;
+  width: 100px;
+  height: 350px;
 }
+
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.btn {
+  background-color: #ed3030;
+  border-color: #ec3030;
+}
+
+.btn:hover {
+  border-color: #f88533;
+  background-color: #f88533;
 }
 
 #logoWeb {
@@ -120,7 +145,8 @@ height: 225px;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 100px;
-  height: 110px;
+  /* height: 110px; */
+  padding: 25px;
   background-color: #121111;
   color: aliceblue;
 }
