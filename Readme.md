@@ -20,32 +20,27 @@ The site supports it's own API in order to provide the latest security features 
 
 ---
 
-## Our Team
+<img src"img/inma.jpg" alt="Inma">
 
-![inma](img/inma.jpg)
-
-### Inma
-
-UI/UX Design
-[Github](https://github.com/Inma0711)
+<h3>Inma</h3>
+<p>UI/UX Designer</p>
+<a href="https://github.com/Inma0711">Github</a>
 
 ---
 
-![Jeni](img/jeni.webp)
+<img src"img/jeni.jpg" alt="Jeni">
 
-### Jeni
-
-HTML/CSS Developer
-[Github](https://github.com/soyJenifer)
+<h3>Jeni</h3>
+<p>HTML/CSS Developer</p>
+<a href="https://github.com/soyJenifer">Github</a>
 
 ---
 
-![Diego](img/diego.jpg)
+<img src"img/diego.jpg" alt="Diego">
 
-### Diego
-
-Javascript Developer
-[Github](https://github.com/DinGo21)
+<h3>Diego</h3>
+<p>Javascript Developer</p>
+<a href="https://github.com/DinGo21">Github</a>
 
 ---
 
