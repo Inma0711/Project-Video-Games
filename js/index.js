@@ -1,12 +1,11 @@
-const	REQUEST = "../json/videoGames.json";
-
-async function	fetchVideoGamesJson() 
+async function	fetchJson(request)
 {
-	const	response = await fetch(REQUEST);
-
+	const	response = await fetch(request);
+	
 	try
 	{
-		if (!response.ok) {
+		if (!response.ok) 
+		{
 			throw new Error("Error: file not found: ", response.status);
 		}
 		return await response.json();
@@ -16,6 +15,46 @@ async function	fetchVideoGamesJson()
 		console.error(error);
 		return null;
 	}
+}
+
+function	createReviewsCards({name, reviewImg, userImg, stars})
+{
+	return `
+		<div class="card">
+			<div class="image-box">
+				<img src="${reviewImg}" alt="Review image">
+			</div>
+				<div class="profile-details">
+					<img src="${userImg}" alt="User image">
+					<div class="name-job">
+						<h3 class="name">${name}</h3>
+						<h4 class="job">${stars}</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	`;
+}
+
+async function	displayReviews()
+{
+	const	request = "../json/reviews.json";
+	const	reviews = document.getElementById("reviews");
+	const	reviewsData = await fetchJson(request);
+	let		reviewsCards;
+	
+	if (!reviews)
+	{
+		console.error("Error: could not get element by id");
+		return ;
+	}
+	if (!reviewsData)
+	{
+		console.error("Error: couldn't load image correctly");
+		return ;
+	}
+	reviewsCards = reviewsData.reviews.map(createReviewsCards).join('');
+	reviews.innerHTML = reviewsCards;
 }
 
 function	createVideoGameCards({title, image, description, price, alt})
@@ -34,18 +73,19 @@ function	createVideoGameCards({title, image, description, price, alt})
 
 async function	displayVideoGames()
 {
+	const	request = "../json/videoGames.json";
 	const	games = document.getElementById("games");
-	const	videoGamesData = await fetchVideoGamesJson();
+	const	videoGamesData = await fetchJson(request);
 	let		videoGameCards;
-
+	
 	if (!games)
 	{
-		console.log("Error: could not get element by class");
+		console.error("Error: could not get element by id");
 		return ;
 	}
 	if (!videoGamesData)
 	{
-		games.innerHTML = "<p>Error: couldn't load image correctly</p>";
+		console.error("Error: couldn't load image correctly");
 		return ;
 	}
 	videoGameCards = videoGamesData.videoGames.map(createVideoGameCards).join('');
@@ -53,3 +93,4 @@ async function	displayVideoGames()
 }
 
 displayVideoGames();
+displayReviews();
