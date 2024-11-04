@@ -37,7 +37,7 @@ function	createReviewsCards({name, reviewImg, userImg, stars})
 
 async function	displayReviews()
 {
-	const	request = "../json/reviews.json";
+	const	request = "./json/reviews.json";
 	const	reviews = document.getElementById("reviews");
 	const	reviewsData = await fetchJson(request);
 	let		reviewsCards;
@@ -72,7 +72,7 @@ function	createVideoGameCards({title, image, description, price, alt})
 
 async function	displayVideoGames()
 {
-	const	request = "../json/videoGames.json";
+	const	request = "./json/videoGames.json";
 	const	games = document.getElementById("games");
 	const	videoGamesData = await fetchJson(request);
 	let		videoGameCards;
